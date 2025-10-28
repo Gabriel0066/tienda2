@@ -1,4 +1,5 @@
 package com.example.tienda.view
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

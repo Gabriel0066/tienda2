@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
-class ArriendoViewModel(private val repository: ArriendoRepository) : ViewModel() {
+open class ArriendoViewModel(private val repository: ArriendoRepository) : ViewModel() {
 
     private val _arriendos = MutableStateFlow<List<Arriendo>>(emptyList())
     val arriendos: StateFlow<List<Arriendo>> = _arriendos.asStateFlow()
